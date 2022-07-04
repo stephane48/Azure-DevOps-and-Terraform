@@ -11,7 +11,7 @@ terraform {
         resource_group_name  = "tf_rd_blobstore"
         storage_account_name = "tfstorageaccountstephane"
         container_name       = "tfstate"
-        key                  = "terraform.tfstate"
+        key                  = "terraform.tfstate"          
     }
 }
 
